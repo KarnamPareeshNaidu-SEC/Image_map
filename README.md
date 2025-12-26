@@ -23,6 +23,7 @@ Write HTML programs for all the regions identified.
 Execute the programs and publish them.
 
 # CODE
+~~~
 map.html
 
 {% load static %}
@@ -167,6 +168,7 @@ urlpatterns = [
     path('temple.html/',views.temple),
     path('water.html/',views.water),
 ]
+~~~
 
 # OUTPUT
 <img width="805" height="427" alt="image" src="https://github.com/user-attachments/assets/b55afa22-c3be-48e7-81d0-bac0e1ff127d" />
